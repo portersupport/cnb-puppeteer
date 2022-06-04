@@ -12,6 +12,7 @@ BUILD_DIR="/workspace"
 LAYERS_DIR=$1
 ENV_DIR="/platform/env/"
 BP_DIR=$CNB_BUILDPACK_DIR
+STACK="heroku-20"
 
 # ENV LAYER
 PUPPETEER_LAYER="${LAYERS_DIR}/puppeteer"
